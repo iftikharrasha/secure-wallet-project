@@ -1,0 +1,151 @@
+@font-face {
+	font-family: "Myradpro";
+    src: url(font/MYRIADPRO-REGULAR-1s.otf);
+}
+
+@font-face {
+	font-family: "Aachenb";
+    src: url(font/Aachenb.ttf);
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: 'Myradpro', sans-serif;
+	color: #010101;
+}
+
+.c_custom{
+	max-width: 1640px !important;
+}
+
+.c-tag-1{
+    color: #ED1E79 ;
+}
+
+.py-200{
+    padding: 200px 0;
+}
+
+.py-100{
+    margin-top: 100px;
+}
+
+.header-sticky {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: all 0.5s ease 0s;
+    z-index: 9999;
+}
+
+.menu ul li a{
+	color: #fff !important;
+	font-size:20px;
+}
+
+.hero {
+    background-image: url(../img/securewalletbg.svg);
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1080px;
+}
+
+.hero-left{
+    background-image: url(../img/star-top-left.png);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.hero-text{
+    width: 50%;
+    margin-bottom: 100px;
+}
+
+.hero-text h1{
+    font-weight: 700;
+    line-height: 60px;
+    color: #fff;
+}
+
+.hero-text h1 span{
+    font-size: 2.75rem;
+}
+
+.hero-text h2{
+    font-size: 16px;
+    color: #fff;
+}
+
+.wallet h2{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.launchpad-bg{
+	background-image: url(../img/orangebg.svg);
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1312.97px;
+}
+
+.feature-item{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.feature-item h3{
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.feature-item p{
+    font-weight: 700;
+}
+
+.launchpad-right{
+    background-image: url(../img/stars-launch-right.png);
+    width: 100%;
+    height: 678px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.call-to-act a{
+    background-color: #fff;
+    color: #ED1E79;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.chart-right{
+    width: 100%;
+    height: 678px;
+}
+
+.chart-text h1{
+    color: #010101;
+}
+
+.chart-text h1 span{
+    font-size: 3rem;
+    color: #ED1E79;
+}
+
+.chart-text h2{
+    color: #010101;
+    font-weight: 700;
+}
