@@ -2,7 +2,9 @@
 @media (max-width: 575.98px) {
 	.header-sticky {
 		position: static;
-		background: linear-gradient(270deg, #9249D3 0%, #7C6AE2 100%);
+		background: linear-gradient(
+			89.91deg
+			, #8a66fe 0.53%, #a242f6 99.92%);
 	}
 
 	.navbar button:focus {
@@ -15,7 +17,7 @@
 
 	.py-200 {
 		padding: 100px 0;
-		padding-top: 0;
+		padding-top: 50px;
 	}
 
 	.py-100 {
@@ -36,6 +38,15 @@
 
 	.hero-left {
 		height: 415px;
+	}
+
+	.hero-text h1{
+		font-size: 2em;
+		line-height: 40px;
+	}
+	
+	.hero-text h1 span{
+		font-size: 2rem;
 	}
 
 	.feature-item {
@@ -95,7 +106,9 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
 	.header-sticky {
 		position: static;
-		background: linear-gradient(270deg, #9249D3 0%, #7C6AE2 100%);
+		background: linear-gradient(
+			89.91deg
+			, #8a66fe 0.53%, #a242f6 99.92%);
 	}
 
 	.mt-200 {
@@ -151,7 +164,9 @@
 @media (min-width: 768px) and (max-width: 991.98px) {
 	.header-sticky {
 		position: static;
-		background: linear-gradient(270deg, #9249D3 0%, #7C6AE2 100%);
+		background: linear-gradient(
+			89.91deg
+			, #8a66fe 0.53%, #a242f6 99.92%);
 	}
 
 	.mt-200 {
@@ -297,6 +312,11 @@
 	.mt-200 {
 		margin-top: 0px;
 	}
+
+	.hero-text {
+		width: 80%;
+		margin-bottom: 100px;
+	}
 }
   
 /* Extra large devices (large desktops, 1200px and up) */
@@ -318,6 +338,7 @@
 	.hero-text h1 {
 		font-size: 1.5rem;
 		line-height: 40px;
+		margin-top: 100px;
 	}	
 	
 	.hero-text h1 span {
@@ -352,7 +373,7 @@
 /****** Extra extra small devices (s6 mobiles, 375px and below) *******/
 @media (min-width: 321px) and (max-width: 376px) {
 	.hero-text h1 {
-		font-size: 2rem;
+		font-size: 1.8rem;
 		line-height: 40px;
 	}
 	
